@@ -1,0 +1,42 @@
+.hero {
+    height: 70vh;
+    background: linear-gradient(180deg, #64a4eb, #d95ba4 60%);
+    display: flex;
+    justify-content: center; /* Centers the children horizontally */
+    align-items: center; /* Centers the children vertically */
+}
+
+.hero-left, .hero-right {
+    flex: 1; /* Both sides take equal space */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-left {
+    padding-left: 20px; /* Adjust padding as needed */
+    padding-right: 20px; /* Add padding to prevent text from touching the image */
+}
+
+.hero-right {
+    flex-basis: 40%; /* Adjust based on your preference for image size */
+}
+
+.hero-left h2 {
+    font-size: 70px;
+    font-weight: 900;
+    color: #a0eb94;
+    text-align: center; /* Center the text */
+}
+
+.hero-hand-icon img {
+    width: 20px; /* Adjust size to be visible */
+    height: auto;
+}
+
+.hero-right {
+    justify-content: baseline;
+    align-items: center;
+    padding-left: 20px; /* Add padding to give some space */
+}

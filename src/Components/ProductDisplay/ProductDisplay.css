@@ -1,0 +1,39 @@
+.item {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 10px;
+  width: 250px;
+  text-align: center;
+}
+
+.item img {
+  width: 100%;
+  height: auto;
+}
+
+.item p {
+  color: #555;
+}
+
+
+.item:hover{
+  transform: scale(1.05);
+  transition: transform 0.5s;
+}
+.shop-category {
+  margin: 20px 170px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr ;
+  row-gap: 80px;
+}
+.product-container {
+  display: flex;
+  justify-content: space-around;  
+  align-items: start;      
+  flex-wrap: wrap;               
+}
+
+.product-details, .productdisplay {
+  flex: 1;                       
+  margin: 20px;                  
+}
